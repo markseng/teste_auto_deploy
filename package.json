@@ -5,13 +5,13 @@
   "main": "main.js",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/johndyer24/electron-auto-update-example.git"
+    "url" : "https://github.com/markseng/teste_auto_deploy.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --win --linux --publish never",
+    "deploy": "electron-builder build   --win --AppImage --publish always"
   },
   "author": "",
   "license": "ISC",
